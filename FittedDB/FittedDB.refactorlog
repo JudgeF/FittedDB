@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="0059dcc0-d753-4fbe-bae6-11cac8665ea6" ChangeDateTime="09/23/2020 07:33:19">
+    <Property Name="ElementName" Value="[dbo].[ShoeSize].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ShoeSize]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="49f86ac9-78af-407e-8943-00b3da45d296" ChangeDateTime="09/23/2020 07:33:48">
+    <Property Name="ElementName" Value="[dbo].[ShoeSize].[US]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ShoeSize]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="US_Size" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="72506479-d1d6-4912-b2f0-9f24bd8f424c" ChangeDateTime="09/23/2020 07:33:54">
+    <Property Name="ElementName" Value="[dbo].[ShoeSize].[UK]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ShoeSize]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UK_Size" />
+  </Operation>
+</Operations>
