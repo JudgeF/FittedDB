@@ -54,12 +54,12 @@ BEGIN
 		BEGIN
 
 		DECLARE @ShoeSizeUID uniqueidentifier = NEWID()
-		INSERT INTO Shoe_Size (
-			ShoeSizeUID,
+		INSERT INTO ShoeSize (
+			UID,
 			US_Size,
 			UK_Size,
 			EU_Size,
-			FootLength_CM,
+			FootLength,
 			GenderID
 		)
 			VALUES (
