@@ -1,10 +1,12 @@
-﻿CREATE TABLE [dbo].[ShoeSize]
-(
-	[ID] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
-    [US_Size] FLOAT NOT NULL, 
-    [UK_Size] FLOAT NOT NULL, 
-    [EU_SIze] FLOAT NOT NULL, 
-    [FootLength] FLOAT NOT NULL, 
-    [GenderID] INT NOT NULL DEFAULT 0, 
-    [Comment] VARCHAR(50) NULL
-)
+﻿CREATE TABLE [dbo].[ShoeSize] (
+    [UID]        UNIQUEIDENTIFIER NOT NULL,
+    [US_Size]    FLOAT (53)       NOT NULL,
+    [UK_Size]    FLOAT (53)       NOT NULL,
+    [EU_SIze]    FLOAT (53)       NOT NULL,
+    [FootLength] FLOAT (53)       NOT NULL,
+    [GenderID]   INT              DEFAULT ((0)) NOT NULL,
+    [Comment]    VARCHAR (50)     NULL,
+    PRIMARY KEY CLUSTERED ([UID] ASC)
+);
+
+

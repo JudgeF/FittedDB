@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Brand_has_ShoeSize] (
+    [ShoeSizeUID] UNIQUEIDENTIFIER NOT NULL,
+    [BrandUID]    UNIQUEIDENTIFIER NOT NULL
+);
+

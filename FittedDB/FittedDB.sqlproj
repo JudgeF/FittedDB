@@ -59,10 +59,14 @@
     <Folder Include="Properties" />
     <Folder Include="dbo\" />
     <Folder Include="dbo\Tables\" />
+    <Folder Include="dbo\Stored Procedures\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="ShoeSize.sql" />
     <Build Include="dbo\Tables\Brand.sql" />
+    <Build Include="dbo\Tables\Gender.sql" />
+    <Build Include="dbo\Tables\Brand_has_ShoeSize.sql" />
+    <Build Include="dbo\Stored Procedures\AddShoeSize.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="FittedDB.refactorlog" />
